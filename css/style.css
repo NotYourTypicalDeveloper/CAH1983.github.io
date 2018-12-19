@@ -139,6 +139,3 @@ section.last-sec:before {
 .contact-btn:hover {
   transform: scale(1.1);
 }
-#emaildisplay {
-  display: none;
-}

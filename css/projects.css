@@ -11,7 +11,7 @@
 
 .proj-vid, .proj-desc {
   width: 50%;
-  height: 314px;
+  height: 320px;
 }
 
 .proj-desc {
@@ -33,6 +33,15 @@ video {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+  .fly-in-text li {
+    font-size: 2em;
+  }
+
+  .proj2, .proj4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
   .proj-vid, .proj-desc {
     width: 100%;
