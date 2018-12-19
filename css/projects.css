@@ -1,0 +1,49 @@
+.proj-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj1, .proj2, .proj3, .proj4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.proj-vid, .proj-desc {
+  width: 50%;
+  height: 314px;
+}
+
+.proj-desc {
+  font-size: 15px;
+  padding: 5px 20px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  background-color: #2e3141;
+  opacity: 0.5;
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+  .proj-vid, .proj-desc {
+    width: 100%;
+    height: auto;
+  }
+  section.sec1, section.sec2, section.sec3 {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .navbar {
+    display: none;
+  }
+}

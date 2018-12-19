@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: white;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  bottom: auto;
+  position: fixed;
+  position: -webkit-sticky;
+  background-color: rgba(31, 25, 38, 0.5);
+  border-bottom-left-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+.navbar a {
+  margin: 15px;
+  color: white;
+}
+
+.navbar i {
+  font-size: 1.5em;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fas, .fab {
+  transition: transform 1s;
+}
+
+.fas:hover, .fab:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  font-size: 0.75em;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 0px;
+  right: 190%;
+  position: absolute;
+  font-family: 'raleway', sans-serif;
+  text-transform: lowercase;
+  z-index: 1;
+}

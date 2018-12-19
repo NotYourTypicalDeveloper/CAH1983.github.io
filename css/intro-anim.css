@@ -1,0 +1,74 @@
+.welcome-section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Major Mono Display', monospace;
+
+}
+
+.welcome-section h2 {
+  font-size: 2rem;
+}
+.content-wrap {
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+
+}
+
+.fly-in-text  {
+  list-style:none;
+}
+
+.fly-in-text li {
+  font-weight: 700;
+  display: inline-block;
+  font-family: 'Permanent Marker', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 5em;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.fly-in-text li:nth-child(11) {
+  margin-right: 0;
+}
+
+.enter-button {
+  font-family: 'Permanent Marker', sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(0, 209, 177);
+  opacity: 1;
+  margin-top: 30px;
+  transition: all 1s ease
+}
+
+.content-hidden .fly-in-text li { opacity:0;}
+.content-hidden .fly-in-text li:nth-child(1) { transform: translate3d(-60px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(2) { transform: translate3d(-60px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(3) { transform: translate3d(-50px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(4) { transform: translate3d(-30px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(5) { transform: translate3d(-30px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(6) { transform: translate3d(0px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(7) { transform: translate3d(0px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(8) { transform: translate3d(30px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(9) { transform: translate3d(50px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(10) { transform: translate3d(60px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(11) { transform: translate3d(60px, 0, 0);}
+
+.content-hidden .enter-button { opacity: 0; transform: translate3d(0, -30px, 0);}
+.content-hidden .subtitle-intro {
+  opacity: 0;
+  transform: translate3d(0, -50px, -30px, 0);
+}

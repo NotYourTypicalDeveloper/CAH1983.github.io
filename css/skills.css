@@ -1,0 +1,39 @@
+i.software-icon {
+  font-size: 70px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: auto;
+  margin: 20px;
+}
+div.logo-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+div.logo-container {
+  margin: 20px;
+  height: 80px;
+  transition: transform 1s;
+}
+
+.logo-container:hover {
+  opacity: 0.3;
+  transform: scale(1.2);
+}
+
+div.logo-container:hover .software-name {
+  opacity: 1;
+  display: flex;
+}
+
+.software-name {
+  display: none;
+  justify-content: center;
+}
+
+.software-name:hover {
+  display: flex;
+}

@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  color: #d0dbed;
+  background-color: #2e3141;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+
+h1 {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 3em;
+  margin: 40px 0 40px
+  padding: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section.sec1 {
+  position: relative;
+  overflow: hidden;
+  background: url("../images/space.jpg") fixed no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+  height: 80vh;
+}
+
+section.sec1:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-origin: right;
+  transform: skewY(9deg);
+  background-color: #2e3141;
+}
+
+section.sec1:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-origin: left;
+  transform: skewY(-9deg);
+  background-color: #2e3141;
+}
+
+section.sec2, section.sec3 {
+  height: auto;
+  padding: 10vh 18vw;
+  box-sizing: border-box;
+}
+
+.sec3 {
+  margin-bottom: 2rem;
+}
+
+.skills-sec {
+  background-color: #45558d;
+}
+
+section.last-sec {
+  position: relative;
+  overflow: hidden;
+  background: url("../images/NYC.jpeg") fixed no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+  height: 75vh;
+}
+
+section.last-sec:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-origin: left;
+  transform: skewY(9deg);
+  background-color: #2e3141;
+  z-index: 1;
+}
+
+.purple-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#2e3141;
+  opacity: 0.2;
+}
+
+.contact-me {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: transparent;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 3em;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-btn {
+  color: #d0dbed;
+  background-color: transparent;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  border: none;
+  transition: transform 1s;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+}
+#emaildisplay {
+  display: none;
+}
