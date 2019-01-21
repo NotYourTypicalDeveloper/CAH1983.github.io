@@ -37,19 +37,28 @@ video {
   ul.fly-in-text {
     margin: 10px auto;
   }
-  ul.fly-in-text li {
-    font-size: 3em;
-  }
-
+  /* ul.fly-in-text li {
+    font-size: 2em;
+  } */
+  
   .contact-me {
     display: flex;
     flex-direction: column;
   }
 
-  /* div.content {
-    height: auto;
-    font-size: 16px;
-  } */
+  a.enter-button {
+    font-size: 14px;
+  }
+
+  .content-wrap {
+    width: 80vw;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  div.content {
+    padding: 0 10px;
+  }
 
   .proj2, .proj4 {
     display: flex;
