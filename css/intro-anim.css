@@ -62,7 +62,7 @@
   color: rgb(0, 209, 177);
   opacity: 1;
   margin-top: 30px;
-  transition: all 3s ease
+  transition: all 4s ease
 }
 
 .content-hidden .fly-in-text li { opacity:0;}
