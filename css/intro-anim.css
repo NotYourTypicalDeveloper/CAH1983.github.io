@@ -34,7 +34,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  font-size: 5em;
+  font-size: 2.6em;
   opacity: 1;
   transition: all 3s ease;
 }
@@ -45,13 +45,26 @@
 
 .fly-in-text li:nth-child(11) {
   margin-right: 0;
+} 
+
+@media only screen and (min-width: 500px) {
+  .fly-in-text li {
+    font-size: 4em;
+  }
+
 }
 
-/* @media only screen and (min-width : 1224px) {
-  .content-wrap {
-    width: 80vw;
+@media only screen and (min-width: 720px) {
+  .fly-in-text li {
+    font-size: 5em;
   }
-} */
+}
+
+@media only screen and (min-width : 1224px) {
+  .fly-in-wrap {
+    display: inline-flex;
+  }
+}
 
 .enter-button {
   font-family: 'Permanent Marker', sans-serif;

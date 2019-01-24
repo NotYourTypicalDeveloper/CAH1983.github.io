@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slideShow[i].style.display='flex';
       } else  slideShow[i].style.display='none';
     }
+    document.querySelector('.slideshow').scrollIntoView();
   }
   next.addEventListener('click', moveNext);
 
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slideShow[i].style.display='inline-flex';
       } else  slideShow[i].style.display='none';
     }
+    document.querySelector('.slideshow').scrollIntoView();
   }
   prev.addEventListener('click', movePrev);
 
