@@ -13,7 +13,7 @@ body {
 
 h1 {
   font-family: 'Permanent Marker', sans-serif;
-  font-size: 3em;
+  font-size: calc(10px + 3.0vw);
   margin: 40px 0 40px
   padding: 0;
 }
@@ -130,10 +130,11 @@ section.last-sec:before {
 .contact-btn {
   color: #d0dbed;
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 20px;
   border: none;
   transition: transform 1s;
+  font-family: Raleway;
 }
 
 .contact-btn:hover {
