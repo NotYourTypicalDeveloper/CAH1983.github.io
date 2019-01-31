@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script type="text/javascript" src="javascript/app.js"></script>
-    <script type="text/javascript" src="javascript/animation.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- ------------ -->
 
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Permanent+Marker|Raleway:200i,300,400|Open+Sans|Roboto|Major+Mono+Display" rel="stylesheet">
 
@@ -95,10 +98,10 @@
 <!-- ================== ABOUT ME / Carousel ==================== -->
 
     <section class="sec2" id="about-me-section">
+      <!-- <div class="arrow"> <a class="prev"> <i class="fas fa-angle-double-down"></i> </a> </div> -->
+      
+      
       <div class="slideshow">
-        <div class="arrow"> <a class="prev"> <i class="fas fa-angle-double-down"></i> </a> </div>
-
-
           <div class="slide">
             <div class="content">
 
@@ -121,11 +124,14 @@
               <p>
                 I am always excited to discover cutting-edge technologies and build projects using my creative thinking along with an efficient design.</p>
               <p>
-                ✔ Customizing   ✔
-                Brainstorming   ✔  designing  ✔ Create new functionalities
-                ✔ Working in collaborative industry
-                ✔ Innovation
-                ✔ Finding ways to enhance my productivity
+                <li>Customizing</li>
+                <li>create new features </li>    
+                <li> Brainstorming </li>   
+                <li> Styling </li>  
+                <li> Working in collaborative industry</li>
+                <li> Innovation </li>
+                <li> Finding ways to enhance my productivity</li>
+                <li> Debugging </li>
               </p>
             </div>
           </div>
@@ -154,11 +160,6 @@
 
             </div>
           </div>
-
-          <div class="arrow bounce">
-            <a class="next"><i class="fas fa-angle-double-up"></i></a>
-          </div>
-
         </div>
 
 
@@ -250,6 +251,10 @@
 
       </div>
 
+
+      <div class="arrow bounce">
+        <a class="next"><i class="fas fa-angle-double-down"></i></a>
+      </div>
 
     </section>
 
@@ -437,6 +442,19 @@
       </section>
 
     <script src="./zenscroll-latest/zenscroll.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.slideshow').slick({
+          autoplay: true,
+          autoplaySpeed: 5000,
+        });
+      });
+    </script>
   </body>
 
 </html>
