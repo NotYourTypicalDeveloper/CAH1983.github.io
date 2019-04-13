@@ -19,6 +19,11 @@
   padding: 5px 20px;
   overflow: auto;
 }
+
+img[src="images/link.png"] {
+  margin-left: 10px;
+}
+
 ::-webkit-scrollbar {
   background-color: #2e3141;
   opacity: 0.5;
