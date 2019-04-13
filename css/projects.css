@@ -21,7 +21,7 @@
 }
 
 img[src="images/link.png"] {
-  margin-left: 10px;
+  margin: 0 10px;
 }
 
 ::-webkit-scrollbar {
