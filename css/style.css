@@ -132,6 +132,11 @@ section.last-sec:before {
   align-items: center;
 }
 
+#contact-me h1 {
+  font-size: calc(10px + 2.5vw);
+  letter-spacing: 2px;
+}
+
 #contact-btn {
   color: #d0dbed;
   background-color: transparent;
